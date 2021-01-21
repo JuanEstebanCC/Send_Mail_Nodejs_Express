@@ -12,7 +12,7 @@ let transporter = nodemailer.createTransport(smtpTransport({
         pass: process.env.PASS
     }
 }));
-
+//
 
 router.post('/send', (req,res)=>{
 
